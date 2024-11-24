@@ -1,0 +1,14 @@
+# creating a full powered data science environment
+https://github.com/ed-donner/llm_engineering
+
+
+# activate virtualenv
+source /Users/yogesh/virtualenv/nlp/bin/activate
+# install dependencies
+pip install python-dotenv requests beautifulsoup4 pydub numpy pandas scipy torch jupyterlab ipywidgets pyarrow anthropic google-generativeai matplotlib scikit-learn chromadb langchain langchain-text-splitters langchain-openai langchain-experimental langchain-chroma faiss-cpu tiktoken jupyter-dash plotly twilio duckdb feedparser transformers sentence-transformers datasets accelerate sentencepiece bitsandbytes openai gradio gensim modal ollama
+
+
+# command to start ollama services locally
+http://127.0.0.1:11434
+
+ollama serve 

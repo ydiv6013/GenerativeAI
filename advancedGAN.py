@@ -1,3 +1,4 @@
+
 import tensorflow as tf
 import numpy as np
 import matplotlib.pyplot as plt
@@ -247,4 +248,3 @@ plt.legend()
 plt.title('Losses during Training')
 plt.savefig(f'{path}/losses_plot.png')
 plt.show()
-
